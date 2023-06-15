@@ -1,0 +1,35 @@
+.surface{
+    background-color: blue;
+    width: 400px;
+    height: 500px;
+}
+.tennis{
+    background-color: violet;
+    border-radius:50%;
+    width: 80px;
+    height: 80px;
+    animation: boy 5s alternate infinite;
+
+}
+@keyframes boy{
+     0%{
+        transform: translateY(10px);
+        
+    }
+    50%{
+        transform:translateY(510px) ;
+    }
+    100%{
+        transform: translateY(-500px);
+        
+    } 
+
+    0%{
+    left: 2px;
+    }
+    100%{
+     bottom: 0px;
+    }
+
+    
+}
